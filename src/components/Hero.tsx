@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Mail, Github, Linkedin } from 'lucide-react';
-import headshotImage from '@/assets/headshot.jpg';
+import headshotImage from '@/assets/headshot.jpeg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -24,22 +24,22 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4">
-            Hi, I'm <span className="bg-gradient-primary bg-clip-text text-transparent">Sarah</span>
+            Hi, I'm <span className="bg-gradient-primary bg-clip-text text-transparent">Swasti</span>
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground mb-6">
-            Full Stack Developer & UI/UX Designer
+          Software Engineer | Passionate About Data and AI Systems 
           </p>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            I create beautiful, functional digital experiences that make a difference. 
-            Passionate about clean code, intuitive design, and solving complex problems.
+          I build smart, useful systems powered by data and AI.
+          I care about about clean code, creative problem-solving, and making tech that actually helps people!
           </p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <Button 
-            onClick={() => scrollToSection('projects')}
+            onClick={() => scrollToSection('experience')}
             className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
           >
             View My Work
@@ -56,9 +56,9 @@ const Hero = () => {
 
         <div className="flex justify-center space-x-6 mb-12">
           {[
-            { icon: Mail, href: 'mailto:sarah@example.com', label: 'Email' },
-            { icon: Github, href: 'https://github.com', label: 'GitHub' },
-            { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' }
+            { icon: Mail, href: 'mailto:sssingh4@wisc.edu', label: 'Email' },
+            { icon: Github, href: 'https://github.com/swastisingh2', label: 'GitHub' },
+            { icon: Linkedin, href: 'https://www.linkedin.com/in/swasti-singh-426619231/', label: 'LinkedIn' }
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}

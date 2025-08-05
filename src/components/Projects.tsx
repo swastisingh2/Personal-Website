@@ -6,36 +6,97 @@ import { ExternalLink, Github, Award } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with payment integration, inventory management, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      title: 'Optimized Transit Routing System',
+      description:  'Real-time Wisconsin transit routing prototype using Kafka, GTFS, and Dijkstra’s algorithm. Cleaned 1M+ records, reduced data errors by 90%, and enabled dynamic schedule updates across all routes.',
+      technologies: ['Python', 'GTFS','Geopandas', 'AWS EC2', 'Google BigQuery', 'Docker', 'GCP', 'Kafka'],
+      github: '#',
+      featured: true
+    },
+    {
+      title: 'Animify: Prompt-to-Animation Platform',
+      description: 'RAG-powered app that converts natural language into SVG/MP4 animations using LangChain, Chroma, and Manim. Built a React-based UI with live previews, parameter controls, and FastAPI endpoints.',
+      technologies: [
+        'LangChain',
+        'React',
+        'TypeScript',
+        'FastAPI',
+        'Manim',
+        'Docker',
+        'Chroma',
+        'JavaScript'
+      ],
       github: '#',
       demo: '#',
       featured: true
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management tool with real-time updates, team collaboration features, and advanced filtering.',
-      technologies: ['Vue.js', 'Firebase', 'Vuex', 'CSS3'],
+      title: 'Purchase Order Processor',
+      description: 'Automated purchase order processing with LLMs, async queuing, and real-time monitoring to improve accuracy, speed, and auditability.',
+      technologies: [
+      'Node.js',
+      'Express',
+      'BullMQ',
+      'Redis',
+      'Prometheus',
+      'Grafana',
+      'Loki',
+      'React-Bootstrap',
+      'Docker',
+      'Postman'],
       github: '#',
       demo: '#',
       featured: true
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather application with location-based forecasts, interactive maps, and detailed analytics.',
-      technologies: ['React', 'API Integration', 'Chart.js', 'Tailwind'],
+      title: 'Scene Recognition with LeNet-5',
+      description: 'Developed a LeNet-5 CNN in PyTorch for scene classification. Tuned hyperparameters and used profiling tools to boost model accuracy and performance.',
+      technologies: [
+        'PyTorch',
+        'CNN',
+        'Model Optimization',
+        'Python'
+      ],
+      github: '#',
+      demo: '#',
+      featured: false
+    },
+    {
+      title: 'Music & Flight Explorer Application',
+      description: 'Built a Java app combining a song search tool and a flight routing system. Used Red-Black Tree for efficient music search and Dijkstra’s algorithm for optimal flight paths.',
+      technologies: [
+        'Java',
+        'JavaFX',
+        'Red-Black Tree',
+        'Dijkstra’s Algorithm',
+        'JUnit',
+        'Git'
+      ],
+      github: '#',
+      demo: '#',
+      featured: false
+    },
+    {
+      title: 'Blog App: Full-Stack Content Platform',
+      description: 'Developed a Ruby on Rails blog platform with JWT auth, CRUD APIs, and dynamic user features like image uploads, likes, and comments.',
+      technologies: [
+        'Ruby',
+        'Ruby on Rails',
+        'MySQL',
+        'Devise',
+        'JWT',
+        'MVC'
+      ],
       github: '#',
       demo: '#',
       featured: false
     }
+    
   ];
 
   const certifications = [
-    { name: 'AWS Certified Developer', issuer: 'Amazon Web Services', year: '2023' },
-    { name: 'Google UX Design Certificate', issuer: 'Google', year: '2022' },
-    { name: 'React Developer Certification', issuer: 'Meta', year: '2022' },
-    { name: 'Scrum Master Certified', issuer: 'Scrum Alliance', year: '2021' }
+    { name: 'AWS Certified Developer Associate', issuer: 'Amazon Web Services', year: '2024' },
+    { name: 'AWS Certified Cloud Practioner', issuer: 'Amazon Web Services', year: '2024' },
+    { name: 'Unqork Novice Configurator', issuer: 'Unqork', year: '2025' }
   ];
 
   return (
@@ -78,7 +139,7 @@ const Projects = () => {
                   ))}
                 </div>
                 
-                <div className="flex gap-3">
+                {/* <div className="flex gap-3">
                   <Button variant="outline" size="sm" className="flex-1">
                     <Github size={16} className="mr-2" />
                     Code
@@ -87,7 +148,7 @@ const Projects = () => {
                     <ExternalLink size={16} className="mr-2" />
                     Demo
                   </Button>
-                </div>
+                </div> */}
               </CardContent>
             </Card>
           ))}

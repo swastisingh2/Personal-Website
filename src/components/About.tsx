@@ -4,7 +4,7 @@ import { Heart, Coffee, Code, Palette } from 'lucide-react';
 const About = () => {
   const interests = [
     { icon: Code, title: 'Clean Code', description: 'Writing maintainable, efficient code' },
-    { icon: Palette, title: 'Design', description: 'Creating beautiful user experiences' },
+    { icon: Palette, title: 'Data', description: 'Finding Clarity in messy patterns' },
     { icon: Coffee, title: 'Coffee', description: 'Fuel for late-night coding sessions' },
     { icon: Heart, title: 'Impact', description: 'Building solutions that matter' }
   ];
@@ -22,28 +22,26 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-6">
-              Hello! I'm Sarah, a passionate developer who loves creating digital magic ✨
+            Hello! I’m Swasti, and I love building things that work and matter. ✨
             </h3>
             
             <div className="space-y-4 text-muted-foreground">
               <p>
-                With over 5 years of experience in full-stack development, I've had the pleasure 
-                of working with amazing teams to build products that users truly love. My journey 
-                began with a Computer Science degree, but my passion for creating beautiful, 
-                functional experiences has taken me far beyond the classroom.
+              I'm a senior at UW–Madison, double majoring in Computer Science and Data Science. 
+              I’m especially drawn to ideas at the edge of engineering and AI—agentic systems, automation, and tools that solve real-world problems with elegance and impact.
               </p>
               
               <p>
-                When I'm not coding, you'll find me exploring new design trends, contributing to 
-                open source projects, or enjoying a good cup of coffee while sketching out my 
-                next big idea. I believe that the best products come from understanding both the 
-                technical and human sides of problem-solving.
+              I really enjoy building things that are actually useful—tools or systems that make someone’s life a little easier or more efficient. 
+              I'm especially drawn to engineering and data problems that need both structure and creativity. 
+              I’ve found myself loving the process of figuring things out, whether that’s training AI models to understand the world more like humans, analyzing messy real-world data, or designing agents that can write and reason. 
+              I’m passionate about using code to solve open-ended problems, the kind where there’s no clear path at first and you get to explore what’s possible.
               </p>
               
               <p>
-                I'm always excited about new challenges and opportunities to learn. Whether it's 
-                mastering a new framework or collaborating with talented teams, I'm driven by 
-                the possibility of creating something meaningful.
+              When I’m not writing code, I’m usually writing poems or dancing. 
+              I love stories and movement—two things that have nothing to do with engineering, but somehow help me think more clearly.
+              This site is a little window into what I’ve been building, learning, and messing around with. Thanks for stopping by!
               </p>
             </div>
           </div>

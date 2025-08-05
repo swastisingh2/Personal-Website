@@ -5,28 +5,58 @@ import { Building, Calendar } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'TechCorp Solutions',
-      period: '2022 - Present',
-      location: 'San Francisco, CA',
-      description: 'Leading a team of 5 developers in building scalable web applications using React, Node.js, and AWS. Implemented microservices architecture that improved system performance by 40%.',
-      technologies: ['React', 'Node.js', 'TypeScript', 'AWS', 'PostgreSQL', 'Docker']
+      title: 'AI Engineering Intern',
+      company: 'AidenAI Inc.',
+      period: 'May 2025 – August 2025',
+      location: 'Princeton, NJ',
+      description: [
+        'Built a 4-agent Development Agent system using LangGraph and Hugging Face to generate Unqork UI components from natural language prompts, reducing dev time by 60%. ',
+        'Developed a Vite + React frontend for real-time, chat-based interactions. ',
+        'Implemented FastAPI streaming backend with AsyncIO, achieving <200 ms latency. ',
+        'Integrated 30+ tools using Model Context Protocol (MCP) for dynamic tool selection. ',
+        'Designed role-specific prompts to improve LLM output reliability. ',
+        'Managed session memory using PostgreSQL for persistent and short-term state. ',
+        'Orchestrated agent logic using LangGraph’s state-passing model. ',
+        'Led bi-weekly demos and incorporated feedback into agent improvements. '
+      ],
+      technologies: ['LangGraph', 'React', 'TypeScript', 'FastAPI', 'AsyncIO', 'Hugging Face', 'PostgreSQL', 'Vite', 'MCP']
     },
     {
-      title: 'Frontend Developer',
-      company: 'StartupX',
-      period: '2020 - 2022',
-      location: 'Remote',
-      description: 'Developed responsive user interfaces for a fintech startup. Collaborated closely with designers to implement pixel-perfect designs and improve user experience metrics by 35%.',
-      technologies: ['React', 'Vue.js', 'SCSS', 'Figma', 'JavaScript', 'REST APIs']
+      title: 'ML Research Assistant',
+      company: 'UW Madison College of Engineering',
+      period: 'Sept. 2024 – Present',
+      location: 'Madison, WI',
+      description: [
+        'Built MoE-based image classification models in PyTorch on ImageNet and CIFAR-100. ',
+        'Automated 200+ training experiments with Weights & Biases tracking. ',
+        'Improved out-of-distribution accuracy by 5% through expert selection tuning. ',
+        'Explored LLM-style routing in vision-based Mixture-of-Experts models.'
+      ],
+      technologies: ['PyTorch', 'Data Science', 'Machine Learning', 'Weights & Biases', 'Mixture of Experts']
     },
     {
-      title: 'Junior Web Developer',
-      company: 'Digital Agency Plus',
-      period: '2019 - 2020',
-      location: 'New York, NY',
-      description: 'Built custom WordPress themes and plugins for client websites. Optimized website performance and implemented SEO best practices, resulting in 50% improvement in page load times.',
-      technologies: ['PHP', 'WordPress', 'jQuery', 'MySQL', 'HTML/CSS', 'SEO']
+      title: 'Artificial Intelligence Intern',
+      company: 'Wisconsin Institute for Discovery',
+      period: 'Mar. 2024 – Dec. 2024',
+      location: 'Madison, WI',
+      description: [
+        'Performed PCA and statistical analysis on urinary tract simulation data. ',
+        'Identified 5 most predictive features from 30+ variables. ',
+        'Created a Python data exploration toolkit, reducing graphing effort by 40%. ',
+        'Presented clinical findings to lab members and faculty. '
+      ],
+      technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'PCA', 'Statistics']
+    },
+    {
+      title: 'Information Technology Specialist',
+      company: 'Division of Information Technology (DoIT)',
+      period: 'Jun. 2024 – Apr. 2025',
+      location: 'Madison, WI',
+      description: [
+        'Resolved Cisco VoIP support issues for ~12 customers weekly via Cherwell. ',
+        'Closed ~570 tickets, ensuring prompt and effective technical support.'
+      ],
+      technologies: ['Cisco VoIP', 'Cherwell', 'Customer Support']
     }
   ];
 

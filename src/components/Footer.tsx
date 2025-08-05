@@ -24,9 +24,9 @@ const Footer = () => {
 
         <div className="flex justify-center space-x-6 mb-8">
           {[
-            { icon: Mail, href: 'mailto:sarah@example.com', label: 'Email' },
-            { icon: Github, href: 'https://github.com', label: 'GitHub' },
-            { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' }
+            { icon: Mail, href: 'mailto:sssingh4@wisc.edu', label: 'Email' },
+            { icon: Github, href: 'https://github.com/swastisingh2', label: 'GitHub' },
+            { icon: Linkedin, href: 'https://www.linkedin.com/in/swasti-singh-426619231/', label: 'LinkedIn' }
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
@@ -40,9 +40,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center text-muted-foreground">
-          <p className="flex items-center justify-center gap-2">
-            Made with <Heart size={16} className="text-primary" /> by Sarah • {currentYear}
-          </p>
+          
         </div>
       </div>
     </footer>

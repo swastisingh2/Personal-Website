@@ -5,43 +5,54 @@ import { Code, Palette, Database, Cloud, Wrench, Users } from 'lucide-react';
 const Skills = () => {
   const skillCategories = [
     {
+      title: 'AI Engineering',
+      icon: Code, // use appropriate icon import
+      skills: [
+        { name: 'LangGraph', level: 95 },
+        { name: 'Hugging Face', level: 85 },
+        { name: 'MCP (Model Context Protocol)', level: 90 },
+        { name: 'Prompt Engineering', level: 95 }
+      ]
+    },
+    {
+      title: 'Data Science',
+      icon: Code,
+      skills: [
+        { name: 'Python', level: 95 },
+        { name: 'Pandas/Numpy', level: 95 },
+        { name: 'Matplotlib/Seaborn', level: 80 },
+        { name: 'SciKit Learn', level: 80 }
+      ]
+    },
+    {
       title: 'Frontend',
       icon: Code,
       skills: [
-        { name: 'React/Next.js', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'Vue.js', level: 80 },
-        { name: 'CSS/SCSS', level: 90 }
+        { name: 'React/Vite', level: 80 },
+        { name: 'TypeScript', level: 80 },
+        { name: 'HTML/CSS', level: 85 },
+        { name: 'Tailwind', level: 80 }
       ]
     },
     {
-      title: 'Backend',
+      title: 'Backend & APIs',
       icon: Database,
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Python', level: 75 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'REST APIs', level: 90 }
-      ]
-    },
-    {
-      title: 'Design',
-      icon: Palette,
-      skills: [
-        { name: 'Figma', level: 85 },
-        { name: 'UI/UX Design', level: 80 },
-        { name: 'Adobe Creative Suite', level: 75 },
-        { name: 'Prototyping', level: 80 }
+        { name: 'Java', level: 95 },
+        { name: 'FastAPI', level: 90 },
+        { name: 'Node.js', level: 80 },
+        { name: 'PostgreSQL', level: 90 },
+        { name: 'AsyncIO', level: 75 }
       ]
     },
     {
       title: 'Cloud & DevOps',
       icon: Cloud,
       skills: [
-        { name: 'AWS', level: 80 },
-        { name: 'Docker', level: 75 },
-        { name: 'CI/CD', level: 70 },
-        { name: 'Linux', level: 75 }
+        { name: 'AWS', level: 95 },
+        { name: 'Docker', level: 85 },
+        { name: 'CI/CD', level: 80 },
+        { name: 'Linux', level: 90 }
       ]
     },
     {
@@ -52,16 +63,6 @@ const Skills = () => {
         { name: 'VS Code', level: 95 },
         { name: 'Webpack/Vite', level: 80 },
         { name: 'Jest/Testing', level: 75 }
-      ]
-    },
-    {
-      title: 'Soft Skills',
-      icon: Users,
-      skills: [
-        { name: 'Team Leadership', level: 85 },
-        { name: 'Problem Solving', level: 90 },
-        { name: 'Communication', level: 85 },
-        { name: 'Agile/Scrum', level: 80 }
       ]
     }
   ];
