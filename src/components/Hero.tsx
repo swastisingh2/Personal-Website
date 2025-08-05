@@ -18,7 +18,8 @@ const Hero = () => {
             <img
               src={headshotImage}
               alt="Professional headshot"
-              className="w-full h-full object-contain object-top rounded-full shadow-elegant border-4 border-accent"
+              className="w-full h-full object-contain object-center rounded-full shadow-elegant border-4 border-accent"
+
             />
             <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-10"></div>
           </div>
