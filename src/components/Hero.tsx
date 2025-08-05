@@ -52,6 +52,16 @@ const Hero = () => {
           >
             Learn More
           </Button>
+          
+          <Button 
+            variant="secondary"
+            asChild
+            className="bg-accent hover:bg-primary hover:text-primary-foreground transition-smooth"
+          >
+            <a href="/resume.pdf" download="Swasti_Singh_Resume.pdf">
+              Download Resume
+            </a>
+          </Button>
         </div>
 
         <div className="flex justify-center space-x-6 mb-12">
