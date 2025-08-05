@@ -1,11 +1,11 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Heart, Coffee, Code, Palette } from 'lucide-react';
+import { Heart, Brain, Code, Palette } from 'lucide-react';
 
 const About = () => {
   const interests = [
     { icon: Code, title: 'Clean Code', description: 'Writing maintainable, efficient code' },
     { icon: Palette, title: 'Data', description: 'Finding Clarity in messy patterns' },
-    { icon: Coffee, title: 'Coffee', description: 'Fuel for late-night coding sessions' },
+    { icon: Brain, title: 'AI', description: 'Smarter code. Faster decisions. Better outcomes.' },
     { icon: Heart, title: 'Impact', description: 'Building solutions that matter' }
   ];
 
