@@ -41,9 +41,6 @@ This website was built using:
 # Clone the repo
 git clone https://github.com/swastisingh2/personal-website.git
 
-# Navigate in
-cd personal-portfolio
-
 # Install dependencies
 npm install
 
